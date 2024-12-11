@@ -1,17 +1,15 @@
 
-print("Test new function")
+print("Main function")
 
-a = 3
-b = 7
-c = 1
+a, b, c = 6, 8, 5
 summary = 0
 
 for i in range(9):
     if i < a:
-        summary += i
+        summary += 2 * i
     elif i > b:
-        summary += i // 2
+        summary += i ** 2
     else:
-        summary += c
+        summary += (c - 2)
 
-print(f"Some result: {summary}")
+print(f"Special result: {summary}")
