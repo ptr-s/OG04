@@ -6,10 +6,10 @@ summary = 0
 
 for i in range(9):
     if i < a:
-        summary += 2 * i
+        summary -= i
     elif i > b:
         summary += i ** 2
     else:
-        summary += (c - 2)
+        summary -= c
 
 print(f"Special result: {summary}")
