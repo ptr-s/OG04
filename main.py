@@ -1,17 +1,15 @@
 
-print("Test new function")
+print("function test")
 
-a = 3
-b = 7
-c = 1
+a, b, c = 4, 6, 2
 summary = 0
 
 for i in range(9):
     if i < a:
-        summary += i
+        summary -= i
     elif i > b:
-        summary += i // 2
+        summary -= i // 2
     else:
-        summary += c
+        summary -= c
 
-print(f"Some result: {summary}")
+print(f"result: {summary}")
